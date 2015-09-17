@@ -12,13 +12,13 @@
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quasi explicabo expedita excepturi fuga sequi autem, repellendus omnis natus, maxime soluta esse animi voluptatibus illo illum minus magni cupiditate veniam?</p>
 
 	<div>
-		<form action="signupconfirm.php" method="POST">Please fill out the form.</form>
+		<form action="signupconfirm.php" method="POST">Please fill out the form.</form> <!-- The closing form tag needs to go at the very end of the form. (Think of the form tag as a tag that surrounds the entire form. Inputs, buttons, etc.) -->
 	</div>
 
 <!--I know one of these two isn't right, but this is where I stand at the moment.-->
 
-	<div>
-		<label for="First Name">First Name<input type="text" name="firstname"></label>
+	<div> <!-- The for="something goes here" on the label needs to match the name="something goes here" on the input. Ex. If the label has for="dog", the input should have name="dog"  -->
+		<label for="First Name">First Name<input type="text" name="firstname"></label> <!-- The label tag only goes around the label. Not the input. -->
 	</div>
 
 	<div>
@@ -32,10 +32,10 @@
 
 	<span>
 		<label for="terms"><input type="checkbox" name="terms" value="true">
-By clicking this box, I agree to the terms.</label></span>
+By clicking this box, I agree to the terms.</label><!--If the first span is on a line by itself, you can put this next span on the next line. --></span>
 
 	<div>
-		<label><button>Submit This Form</button> </label>
+		<label><button>Submit This Form</button> </label> <!-- See note about label above. -->
 	</div>
 
 </body>
