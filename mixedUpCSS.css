@@ -27,7 +27,7 @@ color: #FFF;
 text-decoration: none
 display: inline-block;}
 
-main > a {
+.main > a {
 display: block;
 }
 
