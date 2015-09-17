@@ -13,7 +13,7 @@ header p {
 	/*Check out the font in nav. Is it the same? */
 font: 24px;
 /*Something is wrong with this next line. */
-display inline; 
+display: inline; 
 margin: 15px;
 }
 
@@ -29,7 +29,8 @@ nav a {
 color: #FFF;
 /*There's something wrong with these. Notice sublime's helpful coloring. That should be your clue. */
 text-decoration: none
-display: inline-block;}
+display: inline-block; /* I had a feeling something was wrong with this line, but I can't quite put my finger on it. */
+}
 
 .main > a {
 display: block;
