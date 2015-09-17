@@ -1,14 +1,21 @@
 <?php 
-$selection = $_get["color"];
 
-$starter == "You've chosen ";
+	$selection = $_get ["color"];
 
-if (selection = "1") {
-$item_message = "Red.";
-} else (selection == "2") {
+	$starter = "You've chosen";
+
+if ($selection = "1"); {
+	
+	$item_message = "Red.";
+} 
+
+else (selection = "2") {
+
 $item_message = "Blue.";
-} else if (selection = "3") {
-$item_message = "Green."
+} 
+
+else if (selection = "3") {
+$item_message = "Green.";
 } else {
 $item_message = "a color that doesn't exist.";
 }
