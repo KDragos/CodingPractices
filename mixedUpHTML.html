@@ -1,32 +1,43 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Sign Up</title>
+	<meta charset="UTF-8">
+	<title>Sign Up</title>
 </head>
+
 <body>
-<h2>Sign Up<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quasi explicabo expedita excepturi fuga sequi autem, repellendus omnis natus, maxime soluta esse animi voluptatibus illo illum minus magni cupiditate veniam?</h2>
-<div>
-<form action="signupconfirm.php" method="POST">
-Please fill out the form.
-<div>
-<label for="First Name">First Name
-<input type="text" name="firstname"></div>
-<div>
-<label for="Last Name">Last Name</label>
-<input type="text" name="lastname">
-</div><div>
-<label for="email">Email</label>
-<input type="text" name="email">
-</div><div>
-<label for="terms">
-<input type="checkbox" name="terms" value="true"><span>
-By clicking this box, I agree to the terms.</span>
-</label>
-</div>
-<button>Submit This Form</button>
-</form>
-</div>
+	<h2>Sign Up</h2>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quasi explicabo expedita excepturi fuga sequi autem, repellendus omnis natus, maxime soluta esse animi voluptatibus illo illum minus magni cupiditate veniam?</p>
+
+	<div>
+		<form action="signupconfirm.php" method="POST">Please fill out the form.</form>
+	</div>
+
+<!--I know one of these two isn't right, but this is where I stand at the moment.-->
+
+	<div>
+		<label for="First Name">First Name<input type="text" name="firstname"></label>
+	</div>
+
+	<div>
+		<label for="Last Name">Last Name<input type="text" name="lastname"></label>
+	</div>
+
+	<div>
+		<label for="email">Email<input type="text" name="email"></label>
+	</div>
+
+
+	<span>
+		<label for="terms"><input type="checkbox" name="terms" value="true">
+By clicking this box, I agree to the terms.</label></span>
+
+	<div>
+		<label><button>Submit This Form</button> </label>
+	</div>
+
 </body>
 </html>
 
