@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Sign Up</title>
 </head>
-
+<!--  Good job fixing the labels. You'll want to see the additional note below about for="".  -->
 <body>
 	<h2>Sign Up</h2>
 
@@ -14,7 +14,7 @@
 	<form action="signupconfirm.php" method="POST">Please fill out the form.
 
 		<div> <!-- The for="something goes here" on the label needs to match the name="something goes here" on the input. Ex. If the label has for="dog", the input should have name="dog"  -->
-			<label for="First Name">First Name</label><input type="text" name="firstname"><!-- The label tag only goes around the label. Not the input. -->
+			<label for="First Name">First Name</label><input type="text" name="firstname">
 		</div>
 
 		<div>
@@ -32,7 +32,8 @@
 		</span>
 
 		<div>
-			<label for="Submit This Form"><button>Submit This Form</button></label><input type="button" name="Submit This Form"> <!-- See note about label above. -->
+		<!-- Labels are typically only needed for text that's outside of the input or form element. So this next line could just be <button>Submit This Form</button> Because it's the only button in the form, it will automatically submit the form. -->
+			<label for="Submit This Form"><button>Submit This Form</button></label><input type="button" name="Submit This Form">
 		</div>
 	</form>
 
